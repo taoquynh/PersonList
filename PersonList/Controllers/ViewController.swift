@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         configTableView()
+        title = "Person List"
         
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addPerson))
         navigationItem.rightBarButtonItem = addButton

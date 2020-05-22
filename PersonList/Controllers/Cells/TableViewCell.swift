@@ -32,6 +32,7 @@ class TableViewCell: UITableViewCell {
         avatarImageView.layer.borderWidth = 1
         avatarImageView.layer.borderColor = UIColor.white.cgColor
         avatarImageView.backgroundColor = .blue
+        avatarImageView.contentMode = .scaleAspectFill
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
